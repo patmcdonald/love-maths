@@ -55,7 +55,7 @@ function calculateCorrectAnswer() {
         return[operand1 + operand2, "addition"]
     } else {
         alert(`Unimplemented operator ${operator}`)
-        throw `Unimplemented operator ${operator}. Aborting!`
+        throw `Unimplemented operator ${operator}. Abort`
     }
 
 }
