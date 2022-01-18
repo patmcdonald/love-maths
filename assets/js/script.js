@@ -18,7 +18,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
+/**
+ * Main game loop is called when script is initially loaded
+ * and after user input has been processed 
+ */
 function runGame() {
+
+// creates 2 random numbers 1 - 25
+let num1 = Math.floor(Math.random() * 24) + 1
+let num2 = Math.floor(Math.random() * 24) + 1
 
 }
 
